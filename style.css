@@ -1,0 +1,114 @@
+body,html{
+    background: #CECCCC;
+    height: 100% ;
+    width:100%;
+}
+
+.main{
+    height:85% !important;
+    width:100%;
+
+}
+
+.bg-1{
+    color:#fff;
+    background: #252121;
+    padding:25px;
+    height:15%;
+
+
+    
+}
+
+.name-1{
+    margin-bottom: 3px;
+}
+
+.msg-1{
+    margin-top:0 !important;
+    margin-bottom:10px;
+}
+
+.main-bd{
+    background:#EFECEC;
+    padding:50px 50px 0px 50px;
+    height: 85% !important;
+    min-height: 100%;
+    width:100%;
+    overflow: hidden;
+
+
+    
+    
+}
+
+.send-form{
+    background:#EFECEC;
+    padding-bottom:0.2%;
+}
+
+.pfp-img{
+    margin-right:0.5%;
+}
+
+.msg-bd {
+    background: #fff;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding:5px 15px 0 15px;
+    
+    
+    
+}
+
+.status{
+    padding-top:10px;
+    padding-bottom: 0;
+    font-size: 13px;
+    width:100%;
+    color:gray;
+}
+
+.name-status{
+    font-size:17px;
+    color:skyblue;
+    width:100%;
+    padding-left:-10px;
+}
+
+.second-name{
+    color:rgb(228, 133, 116);
+}
+
+
+.delete{
+    padding-left:75%;
+}
+
+.delete:hover{
+    color:tomato;
+    text-decoration:underline;
+    cursor: pointer;
+}
+
+.msg{
+    margin-top: 25px;
+}
+
+.inp{
+    border-radius: 25px;
+    border:none;
+}
+
+.msg-container{
+    margin-bottom:18%;
+}
+
+
+@media screen and (max-width:460px){
+
+    .delete{
+        padding-left: 50%;
+    }
+}
+

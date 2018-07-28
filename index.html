@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- socket -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+
+    <!-- Latest compiled and minified CSS -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    
+    <title>chat app</title>
+</head>
+
+<body>
+
+    <div class="container-fluid ">
+
+
+        <div class="container bg-1 text-center">
+
+            <h2> Chat App</h2>
+
+        </div>
+
+        <div class="main-bd container">
+
+            <div id="msg-container" class="msg-container">
+
+                
+
+
+                <div id="888" class="row">
+
+                    <div class="col-lg-1 col-sm-1 pfp-img">
+                        <img src="img/chat.png" height="50px" class="rounded-circle" />
+                    </div>
+
+                    <div class="col-lg-6 msg-bd">
+
+                        <div class="name-status">
+                            <span> Joe</span>
+                        </div>
+
+                        here goes the first message
+                        <div class="status">
+                            <span class="deliverd"> deliverd</span>
+                            <span class="delete "> delete</span>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+
+                <div id="999" class="row msg">
+
+                    <div class="col-lg-1 pfp-img">
+                        <img src="img/c1.png" height="50px" class="rounded-circle" />
+                    </div>
+
+                    <div class="col-lg-6 msg-bd">
+
+                        <div class="name-status">
+                            <span class="second-name"> tami</span>
+                        </div>
+
+                        here goes the second message
+                        <div class="status">
+                            <span class="deliverd"> deliverd</span>
+                            <span class="delete "> delete</span>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+
+
+                
+
+                
+
+            </div>
+
+
+            <p  id="online-status" class="text-center"style="color:gray"> </p>
+
+
+            
+
+        </div>
+
+
+        <div class="container send-form ">
+            <form id="form">
+                <div class="form-group name-1">
+                    <input id="name" class="form-control inp text-center" placeholder="Enter your name">
+                </div>
+        
+                <div class="form-group msg-1">
+                    <input id="msg-val" class="form-control inp text-center" placeholder="Enter your message">
+                </div>
+        
+        
+                <div class="form-group ">
+                    <button type="submit" id="send" class="btn inp btn-primary btn-block">
+                        Send
+                    </button>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+
+
+
+</body>
+
+<script src="main.js"></script>
+
+</html>
